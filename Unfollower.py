@@ -152,7 +152,6 @@ class UnfollowBot:
         followings = self.driver.find_elements_by_xpath("//a[contains(@class,'notranslate')]")
         followings_links = [following.get_attribute('href') for following in followings]
         self.followings.extend(followings_links)
-        pdb.set_trace()
         print(len(self.followings))
 
     def get_followers(self):
@@ -178,7 +177,6 @@ class UnfollowBot:
 
         followers = self.driver.find_elements_by_xpath("//a[contains(@class,'notranslate')]")  # .get_attribute('href')
         followers_links = [follower.get_attribute('href') for follower in followers]
-        pdb.set_trace()
         print(followers_links)
         print("len: " + str(len(followers_links)))
         self.followers.extend(followers_links)
