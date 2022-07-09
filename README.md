@@ -12,8 +12,9 @@ to small artist like me. Therefore, I was exactly at this point - trying to grow
 help of Instagram - one of the most influential social networks today.
 
 When it comes to an automated use, Instagram is extremely sensitive and strict. 
-Before I programmed this, I used the preexisting toolboxes but (1) got banned all the time
-and (2) was not able to tweak it in a way that it was working for me. 
+Before I programmed this, I tried the preexisting toolboxes for Instagram automation
+but (1) got banned all the time and (2) was not able to tweak it in a way that it was 
+working for me. 
 
 The code in this repo is designed extremely conservative but enables automation of 
 Instagram with reduced risk of getting blocked or banned. And I mean it this way - Instagram
